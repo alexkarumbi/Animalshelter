@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    font-size: 3em;
+    font-style: italic;
+}
+.container{
+    width: 100%;
+}
+.ninja{
+    width: 50%;
+    float: left;
+}
+
+.puppy{
+    width: 50%;
+    float: right;
+}
+.ninja img{
+    float: left;
+    height: 30vh;
+}
+.puppy img{
+    float: right;
+    height: 30vh;
+}
+@media  screen and (min-width:600px) {
+    body{
+        background-color: black;
+        color: cornsilk;
+    }   
+}
+.puppy li ul{
+    padding: 0px;
+}
